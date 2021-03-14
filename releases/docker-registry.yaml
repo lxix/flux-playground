@@ -11,8 +11,8 @@ spec:
   releaseName: registry
   values:
     service:
-      type: NodePort
+#      type: NodePort
     persistence:
-      enabled: true
-      storageClass: "local"
-      size: 1Gi
+#      enabled: true
+#      storageClass: "local"
+#      size: 1Gi
