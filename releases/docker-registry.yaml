@@ -16,7 +16,7 @@ spec:
       internalPort: 5000
       hostPort: 5000
       nodePort: 5000
-    persistence:
-      enabled: true
-      storageClass: "local"
-      size: 1Gi
+#    persistence:
+#      enabled: true
+#      storageClass: "local"
+#      size: 1Gi
