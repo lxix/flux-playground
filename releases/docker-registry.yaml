@@ -14,5 +14,3 @@ spec:
       enabled: true
       storageClass: "local"
       size: 1Gi
-    secrets:
-      htpasswd: ./htpasswd
