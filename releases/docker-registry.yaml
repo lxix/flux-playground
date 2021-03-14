@@ -10,6 +10,8 @@ spec:
     version: 1.10.1
   releaseName: registry
   values:
+    service:
+      type: NodePort
     persistence:
       enabled: true
       storageClass: "local"
