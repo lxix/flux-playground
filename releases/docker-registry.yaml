@@ -1,14 +1,14 @@
 apiVersion: helm.fluxcd.io/v1
 kind: HelmRelease
 metadata:
-  name: docker-registry
-  namespace: kube-system
+  name: registry
+  namespace: default
 spec:
   chart:
     repository: https://helm.twun.io
     name: docker-registry
     version: 1.10.1
-  releaseName: docker-registry
+  releaseName: registry
   values:
     persistence:
       enabled: true
